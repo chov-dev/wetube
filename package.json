@@ -4,11 +4,14 @@
   "description": "Cloning youtube with nodejs and express",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "babel-node index.js"
   },
   "author": "chov-dev",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
     "express": "^4.17.1"
   },
   "devDependencies": {

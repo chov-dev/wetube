@@ -10,10 +10,11 @@
     },
     "env": {
         "browser": false,
-        "node": tr ue
+        "node": true
     },
     "ignorePatterns": ["node_modules/"],
     "rules": { 
         "prettier/prettier": "error"
     }
+    
 }
