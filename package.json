@@ -4,7 +4,7 @@
   "description": "Cloning youtube with nodejs and express",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "nodemon --exec babel-node index.js"
   },
   "author": "chov-dev",
   "license": "ISC",
